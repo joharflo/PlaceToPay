@@ -1,0 +1,116 @@
+
+
+/* ==========================================================================
+   Estilos SHORO
+   ========================================================================== */
+
+
+
+
+
+table{
+    border-collapse: separate;
+    border-spacing: 0 5px;
+}
+
+thead th{
+    background-color:rgb(2, 0, 110);
+    color: white;
+    font-size: 18px;
+    text-align:left;
+
+}
+
+tbody td{
+    background-color: #EEEEEE;
+}
+
+tr td:first-child,
+tr th:first-child {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+tr td:last-child,
+tr th:last-child {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+
+hr{
+   background: red;
+   border: 0;
+   height: 3px;
+}
+
+body{
+	background:  white;
+}
+
+.jumbotron{
+  background: white;
+}
+
+
+header{
+
+
+}
+
+section{
+background: #555555;
+}
+
+/*article{
+	background: #222222;
+}*/
+
+aside{
+	background: #ffffff;
+}
+
+footer{
+
+}
+
+input{
+  text-align:center;
+}
+
+
+.lines{
+	   color: #fff345;
+     font-size:22px;
+}
+
+.caja {
+     color: #02172E;
+     font-size:22px;
+
+
+}
+
+.carousel-inner { text-align: center; }
+.carousel .item > img { display: inline-block;}
+
+.navbar {
+   background-color: #02172E;
+   background: #02172E;
+   border-color: #02172E;
+  }
+
+.redondo{
+-webkit-border-radius: 0px 0px 30px 30px;
+-moz-border-radius: 30px;
+border-radius: 0px;
+box-shadow: 20px 20px 50px #999;
+-webkit-box-shadow: 20px 02px 50px #999;
+-moz-box-shadow: 20px 20px 50px #999;
+}
+.redondo2{
+-webkit-border-radius: 30px 30px 30px 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+
+}
